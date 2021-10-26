@@ -6,7 +6,7 @@ A simple wrapper for `ssh` to select profiles from your `~/.ssh/config` file. Ca
 
 ## Installation
 
-- Download binary from [Releases](https://github.com/ad-on-is/qssh/releases/tag/v1.0), or build it yourself.
+- Download binary from [Releases](https://github.com/ad-on-is/qssh/releases), or build it yourself.
 - Rename binary to qssh.
 - (Optional) add alias to replace ssh
 

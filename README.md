@@ -6,7 +6,7 @@ A simple wrapper for `ssh` to select profiles from your `~/.ssh/config` file. Ca
 
 ## Installation
 
-- Download binary from releases, or build iti yourself.
+- Download binary from [Releases](https://github.com/ad-on-is/qssh/releases/tag/v1.0), or build it yourself.
 - Rename binary to qssh.
 - (Optional) add alias to replace ssh
 
@@ -18,4 +18,4 @@ A simple wrapper for `ssh` to select profiles from your `~/.ssh/config` file. Ca
 
 ## Build yourself
 
-Simply run `./build`. Optionally you can comment out not needed `PLATFORMS=` in `build`.
+Simply run `go build && go install`. Optionally you can comment out not needed `PLATFORMS=` and run `./build`.

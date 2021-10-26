@@ -16,6 +16,18 @@ A simple wrapper for `ssh` to select profiles from your `~/.ssh/config` file. Ca
 - `qssh <param>` Checks whether a profile with the name of `<param>` exists, if so opens that profile, else executes `ssh <param>`
 - `qssh <param> <param> ...` Passes all params directly to `ssh <param> <param> ...`
 
+## Enhancements
+
+Add #Title and/or #Description to hosts
+
+```yaml
+Host Example
+  #Title Some title with spaces
+  #Description Some description, like, this host needs VPN prior to connecting, etc...
+  HostName example.com
+  User foo
+```
+
 ## Build yourself
 
 Simply run `go build && go install`. Optionally you can comment out not needed `PLATFORMS=` and run `./build`.
